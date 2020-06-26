@@ -1,0 +1,77 @@
+/* login form */
+    .login__left {
+        padding: 0px 13%;
+    }
+    .login__left__login_box__title{
+        margin-bottom: 20px;
+    }
+    .login__left__login_box .login__left__login_box__form button {
+        width: 100%;
+        height: 40px;
+        outline: none;
+        border: none;
+        color: white;
+        background-color: #ba101f;
+        margin-bottom: 20px;
+    }
+
+    .login__left__login_box__form input {
+        height: 40px;
+        width: 100%;
+        margin-bottom: 20px;
+        outline: none;
+    }
+
+    .login__left__login_box .login__left__login_box__bottom a {
+        color: black;
+        float: right;
+        text-decoration: underline;
+    }
+
+    .login__left__login_box__bottom a:hover {
+        color: black;
+        float: right;
+        text-decoration: none;
+    }
+
+/* dang ki */
+    .login__left__register .login__left__register__title{
+        padding: 20px 0;
+    }
+
+    .login__left .login__left__register button {
+        width: 100%;
+        margin: 20px 0;
+        outline: none;
+        border: none;
+        color: white;
+        height: 40px;
+        background-color: #ba101f;
+    }
+/* tinh trang don hang */
+    .login__left__orderstatus__form input{
+        height: 40px;
+        width: 100%;
+        margin: 10px 0;
+        outline: none;
+    }
+
+    .login__left .login__left__orderstatus__form button {
+        width: 100%;
+        height: 40px;
+        outline: none;
+        border: none;
+        color: white;
+        background-color: #ba101f;
+        margin: 10px 0;
+    }
+
+    .login__left__orderstatus__title {
+        padding: 20px 0;
+    }
+
+/* login right */ 
+.login__right img{
+    width: 100%;
+    height: 750px;
+}
