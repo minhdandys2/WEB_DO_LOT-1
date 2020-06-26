@@ -1,0 +1,535 @@
+/* duong dan */
+.neu__contact span {
+    color: #ba101f;
+} 
+
+/* baner */
+
+.neu__baner {
+    margin-bottom: 40px;
+}
+.neu__baner .neu__baner__title{
+font-size: 39px;
+}
+
+.neu__baner .neu__baner__image {
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+}
+
+.neu__baner .neu__baner__image img {
+    width: 100%;
+    height: 100%;
+    
+}
+/* menu tim kiem */
+
+.neu__menu_search {
+    margin-bottom: 20px;
+}
+
+.neu__menu_search .neu__menu_search__item_5,
+.neu__menu_search .neu__menu_search__item_6,
+.neu__menu_search .neu__menu_search__item_7,
+.neu__menu_search__show_hidden #hidden_menu_item,
+.neu__menu_search #check_hidden_show {
+    display: none;
+}
+
+.neu__menu_search__show_hidden #check_hidden_show:checked ~ label #hidden_menu_item{
+    display: block;
+}
+
+.neu__menu_search__show_hidden #check_hidden_show:checked ~ label #show_menu_item {
+    display: none;
+}
+#check_hidden_show:checked ~ .neu__menu_search__item_4,
+#check_hidden_show:checked ~ .neu__menu_search__item_5,
+#check_hidden_show:checked ~ .neu__menu_search__item_6,
+#check_hidden_show:checked ~ .neu__menu_search__item_7 {
+    display: block;
+}
+
+.neu__menu_search .neu__menu_search__item_1,
+.neu__menu_search .neu__menu_search__item_2,
+.neu__menu_search .neu__menu_search__item_3,
+.neu__menu_search .neu__menu_search__item_4,
+.neu__menu_search .neu__menu_search__item_5,
+.neu__menu_search .neu__menu_search__item_6,
+.neu__menu_search .neu__menu_search__item_7 {
+    padding: 20px 0 ;
+}
+
+
+.neu__menu_search .neu__menu_search__show_hidden label {
+    margin-top: 10px
+}
+
+
+
+/* width */
+.neu__menu_search__item__size__form_search__select::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+.neu__menu_search__item__size__form_search__select::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+   
+  /* Handle */
+.neu__menu_search__item__size__form_search__select::-webkit-scrollbar-thumb {
+    background: black; 
+    border-radius: 5px;
+}
+
+/* neu__menu_search__item */
+    .neu__menu_search__item_7,
+    .neu__menu_search__item_6,
+    .neu__menu_search__item_5,
+    .neu__menu_search__item_4,
+    .neu__menu_search__item_3,
+    .neu__menu_search__item_2,
+    .neu__menu_search__item_1 {
+        position: relative;
+    }
+
+    .neu__menu_search__item_7__form_search,
+    .neu__menu_search__item_6__form_search,
+    .neu__menu_search__item_5__form_search,
+    .neu__menu_search__item_4__form_search,
+    .neu__menu_search__item_3__form_search,
+    .neu__menu_search__item_2__form_search,
+    .neu__menu_search__item_1__form_search {
+        position: absolute;
+        display: none;
+        background-color: white ;
+        z-index: 1;
+        width: 100%;
+        padding: 20px 15px;
+        border: 1px solid;
+    }
+
+    #neu__menu_search__item_7__checkbox:checked ~ .neu__menu_search__item_7__form_search,
+    #neu__menu_search__item_6__checkbox:checked ~ .neu__menu_search__item_6__form_search,
+    #neu__menu_search__item_5__checkbox:checked ~ .neu__menu_search__item_5__form_search,
+    #neu__menu_search__item_4__checkbox:checked ~ .neu__menu_search__item_4__form_search,
+    #neu__menu_search__item_3__checkbox:checked ~ .neu__menu_search__item_3__form_search,
+    #neu__menu_search__item_2__checkbox:checked ~ .neu__menu_search__item_2__form_search,
+    #neu__menu_search__item_1__checkbox:checked ~ .neu__menu_search__item_1__form_search {
+        display: block;
+    }
+
+    #neu__menu_search__item_7__checkbox,
+    #neu__menu_search__item_6__checkbox,
+    #neu__menu_search__item_5__checkbox,
+    #neu__menu_search__item_4__checkbox,
+    #neu__menu_search__item_3__checkbox,
+    #neu__menu_search__item_2__checkbox,
+    #neu__menu_search__item_1__checkbox {
+        display: none;
+    }
+
+   
+
+    .neu__menu_search__item_7__form_search__submit,
+    .neu__menu_search__item_6__form_search__submit,
+    .neu__menu_search__item_5__form_search__submit,
+    .neu__menu_search__item_4__form_search__submit,
+    .neu__menu_search__item_3__form_search__submit,
+    .neu__menu_search__item_2__form_search__submit,
+    .neu__menu_search__item__size__form_search__submit {
+        display: block;
+        margin-top: 20px;
+        width: 100%;
+        background-color: #ba101f;
+    }
+
+    .neu__menu_search__item_7__form_search .neu__menu_search__item_7__form_search__submit button,
+    .neu__menu_search__item_6__form_search .neu__menu_search__item_6__form_search__submit button,
+    .neu__menu_search__item_5__form_search .neu__menu_search__item_5__form_search__submit button,
+    .neu__menu_search__item_4__form_search .neu__menu_search__item_4__form_search__submit button,
+    .neu__menu_search__item_3__form_search .neu__menu_search__item_3__form_search__submit button,
+    .neu__menu_search__item_2__form_search .neu__menu_search__item_2__form_search__submit button,
+    .neu__menu_search__item_1__form_search .neu__menu_search__item__size__form_search__submit button {
+        color: white;
+        outline: none;
+        border: none;
+        width: 100%;
+        background: transparent;
+    }
+
+    
+
+/* menu item 1 */
+    .neu__menu_search__item__size__form_search__select {
+        box-sizing: border-box;
+        max-height: 150px;
+        overflow: auto;
+    }
+
+    .neu__menu_search__item__label {
+        width: 100%;
+        border-bottom: 1px solid;
+        margin: 0;
+    }
+
+    .neu__menu_search__item__size__label_search {
+        width: 100%;
+    }
+
+    .neu__menu_search__item__size__label_search input {
+        border: none;
+        border-bottom: 1px solid;
+        width: 85%;
+        outline: none;
+    }
+
+    .neu__menu_search__item__button {
+        float: right;
+    }
+
+    .neu__menu_search__item__size__form_search__select label{
+        width: 100%;
+    }
+/* menu item 2 */
+
+    .input[type="checkbox"] {
+        display: none;
+    }
+
+    .checkboxFive_6,
+    .checkboxFive_5,
+    .checkboxFive_4,
+    .checkboxFive_3,
+    .checkboxFive_2,
+    .checkboxFive {
+        position: relative;
+        padding-right: 17px;
+        padding-bottom: 12px;
+    }
+                    /* color nut mau */
+    .checkboxFive label {
+        margin: 0;
+        cursor: pointer;
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 0;
+        left: 0;
+        background:red;
+    }
+
+    .checkboxFive_2 label {
+        cursor: pointer;
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 0;
+        left: 0;
+        background: rgb(4, 153, 252);
+    }
+
+    .checkboxFive_3 label {
+        cursor: pointer;
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 0;
+        left: 0;
+        background: blue;
+    }
+
+    .checkboxFive_4 label {
+        cursor: pointer;
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 0;
+        left: 0;
+        background: green;
+    }
+
+    .checkboxFive_5 label {
+        cursor: pointer;
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 0;
+        left: 0;
+        background: yellow;
+    }
+
+    .checkboxFive_6 label {
+        cursor: pointer;
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 0;
+        left: 0;
+        background: black;
+    }
+
+
+    .checkboxFive_6 label:after,
+    .checkboxFive_5 label:after,
+    .checkboxFive_4 label:after,
+    .checkboxFive_3 label:after,
+    .checkboxFive_2 label:after,
+    .checkboxFive label:after {
+        opacity: 0;
+        content: '';
+        position: absolute;
+        width: 9px;
+        height: 5px;
+        background: transparent;
+        top: 10px;
+        left: 10px;
+        border: 3px solid white;
+        border-top: none;
+        border-right: none;
+        transform: rotate(-45deg);
+    }
+
+    .checkboxFive_6 input[type=checkbox]:checked + label:after,
+    .checkboxFive_5 input[type=checkbox]:checked + label:after,
+    .checkboxFive_4 input[type=checkbox]:checked + label:after,
+    .checkboxFive_3 input[type=checkbox]:checked + label:after,
+    .checkboxFive_2 input[type=checkbox]:checked + label:after,
+    .checkboxFive input[type=checkbox]:checked + label:after {
+        opacity: 1;
+    }
+/* menu item 3 */
+
+/* menu item 4*/
+    .neu__menu_search__item_4__form_search__select {
+        box-sizing: border-box;
+        max-height: 150px;
+        overflow: auto;
+    }
+
+    .neu__menu_search__item_4__form_search__select label{
+        width: 100%;
+    }
+/* menu item 5 */
+    .neu__menu_search__item_5__form_search__select {
+        box-sizing: border-box;
+        max-height: 150px;
+        overflow: auto;
+    }
+
+    .neu__menu_search__item_5__form_search__select label{
+        width: 100%;
+    }
+/* menu item 6 */
+    .neu__menu_search__item_6__form_search__select {
+        box-sizing: border-box;
+        max-height: 150px;
+        overflow: auto;
+    }
+
+    .neu__menu_search__item_6__form_search__select label{
+        width: 100%;
+    }
+/* menu item 7 */
+    .neu__menu_search__item_7__form_search__select {
+        box-sizing: border-box;
+        max-height: 150px;
+        overflow: auto;
+    }
+
+    .neu__menu_search__item_7__form_search__select label{
+        width: 100%;
+    }
+
+/* danh sach san pham */
+
+    /* thong tin chung */
+        .neu__list_product {
+            padding-bottom: 20px;
+            border-bottom: 1px solid #cfd1d0;
+        }
+
+        .neu__list_product__general_information {
+            margin-bottom: 10px;
+        }
+
+        .neu__list_product__general_information__item select{
+            outline: none;
+            border: none;
+            border-bottom: 1px solid;
+            margin-left: 3px;
+        }
+
+        .neu__list_product__general_information__item {
+            float: right;
+        }
+    
+    /* danh sach san pham */
+
+        .neu__list_product__item__card {
+            margin-bottom: 20px;
+            box-shadow: 1px 1px 5px 0px #888888;
+        }
+        
+        .neu__list_product__item__card .anh_2 {
+            display: none;
+        }
+
+        .neu__list_product__item__card .card-content-2 {
+            border: 1px solid #d8d8d8;
+            z-index: 10;
+            display: none;
+            position: absolute;
+            background-color: white;
+        }
+
+        .neu__list_product__item__card__size .neu__list_product__item__card__size__title{
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .neu__list_product__item__card .card-image:hover .anh_1 {
+            display: none;
+        }
+
+        .neu__list_product__item__card .card-image:hover .anh_2 {
+            display: block;
+        }
+       
+        .neu__list_product__item__card .card-image:hover .card-content-2 {
+            display: block;
+        }
+
+        .card-content-2 {
+            width: 100%;
+        }
+
+        .card-content-2 .card-content-2__submit {
+            text-align: center;
+        }
+
+        .card-content-2 .card-content-2__submit button {
+            padding: 5px 20px;
+            border: none;
+            outline: none;
+            margin: 20px 0;
+        }
+
+        .neu__list_product__item__card .card {
+            border: none;
+            border-radius: 0;
+        }
+
+        .neu__list_product__item__card .card-footer button {
+            text-align: left;
+            width: 100%;
+            height: 100%;
+            background-color: #f9f9f9;
+            border: none;
+            outline: none;
+        }
+
+        .neu__list_product__item__card .card-footer i {
+            float: right;
+        }
+
+        .neu__list_product__item__card .card-image{
+            width: 100%;
+            height: 250px;
+        }
+
+        .neu__list_product__item__card .card-image img {
+            width: 100%;
+            height: 100%;
+        }
+
+
+        .neu__list_product__item__card .card-image .card-image-tim {
+            position: absolute;
+            top: 3px;
+            left: 3px;
+        }
+
+
+
+        .neu__list_product__item__card .card-image-tim #check_image_tim {
+            display: none;
+        }
+
+        .neu__list_product__item__card .card-image-tim #check_image_tim:checked ~ label .fas.fa-heart {
+            display: block;
+        }
+
+        .neu__list_product__item__card .card-image-tim #check_image_tim:checked ~ label .far.fa-heart {
+            display: none;
+        }
+
+        .neu__list_product__item__card .card-image-tim .fa-heart {
+            font-size: 26px;
+        }
+
+        .neu__list_product__item__card .card-image-tim .far.fa-heart:hover {
+            color: red;
+        }
+
+        .neu__list_product__item__card .card-image-tim .fas.fa-heart {
+            color: red;
+            display: none;
+        }
+
+        .neu__list_product__item__card .card-body {
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+
+        .neu__list_product__item__card .card-footer {
+            padding: 0;
+        }
+
+        .neu__list_product__item__card__size__list {
+            line-height: 2;
+        }
+
+        .neu__list_product__item__card__size__list a:hover {
+            text-decoration: none;
+        }
+
+        .neu__list_product__item__card__size__list .item {
+            text-decoration: none;
+            padding: 2px 6%;
+            background-color: white;
+            height: 30px;
+            border: 1px solid #cfd1d0;
+            color: #494e53;
+        }
+
+        .neu__list_product__item__card .card-body .card-body-2 {
+            display: none;
+        }
+
+
+
+        .neu__list_product__item__card .card-image:hover ~ .card-body .card-body-1{
+            display: none;
+        }
+
+        .neu__list_product__item__card .card-image:hover ~ .card-body .card-body-2 {
+            display: block;
+        }
+    /* loi ket */
+        .neu__filter {
+            text-align: center;
+        } 
+
+        .neu__filter .neu__filter__title{
+            padding: 20px 10px;
+        }
+
+
+       
+        
+
+  
